@@ -165,3 +165,120 @@ body {
     bottom: 0;
     background-color: rgba(0, 0, 0, .7);
 }
+
+.services {
+    margin: 0px;
+    height: 1074px;
+    background-color: #000;
+}
+
+.services-list{
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #E3B873;
+
+}
+
+.services-list-item {
+    margin-top: 107px;
+    margin-right: 60px;
+}
+
+.info-project {
+    margin-top: 52px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.info-project-flat {
+    margin-top: 42px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title-services {
+    font-family: 'Yeseva One';
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.suptitle-services{
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.title-info-project-flat{
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.suptitle-info-project-flat {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.nav-link {
+    margin-top: 81px;
+}
+
+.link-dots {
+    margin: 30px;
+}
+
+.info-project-descr {
+    margin-right: 50px;
+}
+
+.info-projectr-flat-item {
+    margin-bottom: 34px;
+}
+
+.online-control {
+    display: flex;
+    justify-content: center;
+    margin-top: -250px;
+}
+
+.title-online-control {
+    font-family: 'Yeseva One';
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.online-control-svg {
+    margin-top: 20px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hr-line {
+    margin-top: 52px;
+    margin-bottom: 35px;
+    color: #E3B873;
+    height: 2px;
+    width: 55px;
+}
+
+.descr-online-control {
+    text-align: center;
+}
