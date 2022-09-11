@@ -103,11 +103,13 @@ body {
 }
 
 .button-hero {
-    padding: 20px 42px;
+    width: 207px;
+    height: 51px;
 }
 
 .button-lite {
-    padding: 20px 22px;
+    width: 207px;
+    height: 51px;
     margin-left: 20px;
     color: #fff;
     background-color: rgba(28,28,28,0);
