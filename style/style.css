@@ -1,0 +1,165 @@
+@font-face {
+	font-family: 'Nunito Sans';
+	src: url('../fonts/NunitoSans-Regular.ttf') format('ttf');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Nunito Sans';
+	src: url('../fonts/NunitoSans-Italic.ttf') format('ttf');
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Yeseva One';
+	src: url('../fonts/YesevaOne-Regular.ttf') format('ttf');
+	font-display: swap;
+	font-weight: 400;
+    font-style: normal;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #000;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.logo{
+    color: #E3B873;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.header-list-item{
+    margin-right: 47px;
+}
+
+.header-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-link:hover {
+	color: #E3B873;
+}
+
+.header-button{
+    display: flex;
+    align-items: center;
+}
+
+.header-phone {
+    margin-right: 45px;
+    color: #E3B873;
+    font-size: 11px;
+
+}
+
+.button {
+    background: #E3B873;
+    color: #fff;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 11px;
+}
+
+.button-header {
+    padding: 13px 33px;
+}
+
+.button-hero {
+    padding: 20px 42px;
+}
+
+.button-lite {
+    padding: 20px 22px;
+    margin-left: 20px;
+    color: #fff;
+    background-color: rgba(28,28,28,0);
+    border: 1px solid #FFf;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 11px;
+}
+
+
+.title {
+    margin: 0;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.subtitle {
+    margin-top: 19px;
+    margin-bottom: 41px;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFF;
+}
+
+.hero-content {
+    max-width: 600px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-subtitle {
+    color: #E3B873;
+}
+
+.hero {
+    background-image: url('../image/hero.jpg');
+    background-size: cover;
+    height: 707px;
+    padding: 194px;
+    position: relative;
+}
+
+.hero-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
