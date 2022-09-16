@@ -22,111 +22,6 @@
     font-style: normal;
 }
 
-@media screen and (min-width: 1440px) {
-	.container {
-		max-width: 100%;
-    }
-    .header-phone {
-        margin-right: 45px;
-        color: #E3B873;
-    }
-
-    .button-hero {
-        width: 207px;
-        height: 51px;
-    }
-
-    .button-lite {
-        width: 207px;
-        margin-left: 20px;
-    }
-
-    .info-project {
-        margin-top: 52px;
-        display: flex;
-        justify-content:space-between;
-    }
-    .mobile-pic {
-        display: none;
-    }
-    .info-project-descr {
-        margin-right: 50px;
-    }
-
-    .online-control {
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        margin-top: -270px;
-    }
-    .img-online-control {
-        position: relative;
-        width: 817px;
-        height: 434px;
-    }
-    .img-icon {
-        top: 35%;
-        left: 41%;
-    }
-
-    .hr-line {
-        margin-top: 52px;
-        margin-bottom: 35px;
-    }
-    .info-online-control {
-        width: 681px;
-        margin-bottom: 91px;
-        color: #363636;
-    }
-    .form-input {
-        margin-bottom: 37px;
-        display: flex;
-        justify-content: space-around;
-    }
-    .input-blok-label {
-        color: rgba(54, 54, 54, 0.5);
-    }
-    .input-blok-input {
-        width:231px;
-        border: 0;
-        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
-    }
-    .input-blok:nth-child(2) {
-        padding-left: 58px;
-        padding-right: 49px;
-    }
-    .form-input-check-mobile {
-        display: none;
-    }
-    .form-input-check {
-        display: flex;
-        justify-content: center;
-    }
-    .form-input-check-text {
-        color: #181818;
-    }
-    .types-flat {
-        margin: 75px 0px 242px 0px;
-    }
-    .types-repair-list-item {
-        display: grid;
-        justify-items: center;
-        padding-bottom: 108px;
-    }
-    .dop-form {
-        display: grid;
-    }
-    .mob-styles {
-        display: none;
-    }
-    .styles {
-        background-image: url('../image/backpic-styles.png');
-    }
-    .clients {
-        display: block;
-    }
-}
-
 @media screen and (min-width: 768px) and (max-width:  1440px){
     .header-phone {
         color: #fff;
@@ -232,10 +127,84 @@
     .clients {
         display: block;
     }
+    .questions-container{
+        position: absolute;
+        left: 50%;
+        top: 20px;
+        transform: translateX(-50%);
+        width: 60%;
+        max-width: 1200px;
+        margin: 0;
+        padding: 35px 180px;
+        background: #181818;
+        z-index: 2
+    }
+    .questions-form {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between
+        
+    }
+    .contacts {
+        margin-top: 300px;
+        color: #e3b873;
+        background-color: #131313;
+        background-image: url('../image/image\ 7.2.png');
+        background-size: cover;
+        height: 100%;
+        position: relative;
+        z-index: -2;
+    }
+
+    .questions-input-container:first-child,.questions-input-container:nth-child(2) {
+        width: 45%
+    }
+    
+    .questions-input-container:nth-child(3) {
+        width: 100%
+    }
+    
+    .questions-input-container:nth-child(4) {
+        margin: 0px auto 50px;
+        width: 100%;
+        text-align: center
+    }
+
+
+    .questions-input {
+        display: block;
+        width: 100%;
+        height: 30px;
+        margin-bottom: 48px;
+        border: 0;
+        background: #181818;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        font-size: 14px;
+        line-height: 23px;
+        color: #fff;
+    }
+
+    .contacts-container {
+        padding: 250px 0 35px;
+        flex-direction: column
+    }
+
+    .questions-button {
+        width: 200px;
+        height: 51px;
+    }
+    .contacts-map-img {
+        height: 100%
+    }
+    .mob-contacts-map-container {
+        display: none;
+    }
 }
 
 
-@media screen and (min-width: 481px) and (max-width:  768px){
+@media screen and (min-width: 300px) and (max-width:  768px){
     nav {
         display: none;
     }
@@ -382,6 +351,81 @@
     .clients {
         display: none;
     }
+    .questions {
+        margin-top: -700px;
+        z-index: -3;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        background-color: #181818;
+    }
+    .questions-container{
+        padding-top: 200px;
+        width: 90%;
+        background: #181818;
+    }
+ 
+    .contacts {
+        color: #e3b873;
+        background-color: #181818;
+  
+    }
+
+    .questions-input-container:first-child,.questions-input-container:nth-child(2) {
+        width: 100%
+    }
+    
+    .questions-input-container:nth-child(3) {
+        width: 100%
+    }
+    
+    .questions-input-container:nth-child(4) {
+        margin: 0px auto 67px;
+        width: 100%;
+        
+    }
+
+    .questions-input {
+        display: block;
+        width: 100%;
+        height: 30px;
+        margin-bottom: 48px;
+        border: 0;
+        background: #181818;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        font-size: 14px;
+        line-height: 23px;
+        color: #fff;
+    }
+
+    .contacts-container {
+        width: 90%;
+        padding: 50px 0 35px;
+        flex-direction: column;
+    }
+
+    .questions-button {
+        width: 100%;
+        height: 51px;
+    }
+    .contacts-map-container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footer {
+        display: none;
+    }
+    .mob-contacts-map-container {
+        margin-bottom:  50px;
+    }
+
+    .contacts-map-container {
+        display: none;
+    }
+
 }
 
 * {
@@ -652,7 +696,6 @@ body {
 }
 
 .info-online-control {
-    margin: 0 auto;
     font-size: 18px;
     line-height: 37px;
     text-align: center;
@@ -795,7 +838,6 @@ body {
 
 .dop-form-pic {
     position: absolute;
-    z-index: -1;
 }
 
 .dop-form-list {
@@ -1157,19 +1199,6 @@ body {
     position: relative;
 }
 
-.questions-container{
-    position: absolute;
-    left: 50%;
-    top: 20px;
-    transform: translateX(-50%);
-    width: 60%;
-    max-width: 1200px;
-    margin: 0;
-    padding: 35px 180px;
-    background: #181818;
-    z-index: 2
-}
-
 .questions-title {
     margin-bottom: 40px;
     font-family: 'Yeseva One';
@@ -1179,47 +1208,11 @@ body {
     color: #FFFFFF;
 }
 
-.questions-form {
-    margin: 0;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between
-    
-}
-
-.questions-input-container:first-child,.questions-input-container:nth-child(2) {
-    width: 45%
-}
-
-.questions-input-container:nth-child(3) {
-    width: 100%
-}
-
-.questions-input-container:nth-child(4) {
-    margin: 0px auto 50px;
-    width: 100%;
-    text-align: center
-}
-
 .input-label {
     display: block;
     font-size: 13px;
     line-height: 21px;
     color: rgba(255, 255, 255, 0.5);
-}
-
-.questions-input {
-    display: block;
-    width: 100%;
-    height: 30px;
-    margin-bottom: 48px;
-    border: 0;
-    background: #181818;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-    font-size: 14px;
-    line-height: 23px;
-    color: #fff;
 }
 
 .questions-button {
@@ -1230,27 +1223,9 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 0 auto;
-    width: 200px;
-    height: 51px;
-}
-
-.contacts {
-    margin-top: 300px;
-    color: #e3b873;
-    background-color: #131313;
-    background-image: url('../image/image\ 7.2.png');
-    background-size: cover;
-    height: 100%;
-    position: relative;
-    z-index: -2;
 }
 
 .contacts-container {
-    padding: 250px 0 35px;
-    flex-direction: column
-}
-
-.contacts-map-container,.contacts-container {
     display: flex;
     align-items: center;
 }
@@ -1303,10 +1278,6 @@ body {
     background-image: url(../image/inst.svg);
     background-position: 50%;
     background-repeat: no-repeat
-}
-
-.contacts-map-img {
-    height: 100%
 }
 
 .footer {
