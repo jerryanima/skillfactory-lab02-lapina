@@ -22,7 +22,369 @@
     font-style: normal;
 }
 
-body * {
+@media screen and (min-width: 1440px) {
+	.container {
+		max-width: 100%;
+    }
+    .header-phone {
+        margin-right: 45px;
+        color: #E3B873;
+    }
+
+    .button-hero {
+        width: 207px;
+        height: 51px;
+    }
+
+    .button-lite {
+        width: 207px;
+        margin-left: 20px;
+    }
+
+    .info-project {
+        margin-top: 52px;
+        display: flex;
+        justify-content:space-between;
+    }
+    .mobile-pic {
+        display: none;
+    }
+    .info-project-descr {
+        margin-right: 50px;
+    }
+
+    .online-control {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        margin-top: -270px;
+    }
+    .img-online-control {
+        position: relative;
+        width: 817px;
+        height: 434px;
+    }
+    .img-icon {
+        top: 35%;
+        left: 41%;
+    }
+
+    .hr-line {
+        margin-top: 52px;
+        margin-bottom: 35px;
+    }
+    .info-online-control {
+        width: 681px;
+        margin-bottom: 91px;
+        color: #363636;
+    }
+    .form-input {
+        margin-bottom: 37px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .input-blok-label {
+        color: rgba(54, 54, 54, 0.5);
+    }
+    .input-blok-input {
+        width:231px;
+        border: 0;
+        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    }
+    .input-blok:nth-child(2) {
+        padding-left: 58px;
+        padding-right: 49px;
+    }
+    .form-input-check-mobile {
+        display: none;
+    }
+    .form-input-check {
+        display: flex;
+        justify-content: center;
+    }
+    .form-input-check-text {
+        color: #181818;
+    }
+    .types-flat {
+        margin: 75px 0px 242px 0px;
+    }
+    .types-repair-list-item {
+        display: grid;
+        justify-items: center;
+        padding-bottom: 108px;
+    }
+    .dop-form {
+        display: grid;
+    }
+    .mob-styles {
+        display: none;
+    }
+    .styles {
+        background-image: url('../image/backpic-styles.png');
+    }
+    .clients {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:  1440px){
+    .header-phone {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    .header-phone {
+        margin-right: 45px;
+        color: #E3B873;
+    }
+    .button-hero {
+        width: 207px;
+        height: 51px;
+    }
+
+    .button-lite {
+        width: 207px;
+        margin-left: 20px;
+    }
+
+    .info-project {
+        margin-top: 52px;
+        display: flex;
+        justify-content:space-between;
+    }
+
+    .mobile-pic {
+        display: none;
+    }
+    .info-project-descr {
+        margin-right: 50px;
+    }
+    .online-control {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        margin-top: -270px;
+    }
+    .img-online-control {
+        position: relative;
+        width: 817px;
+        height: 434px;
+    }
+    .img-icon {
+        top: 35%;
+        left: 41%;
+    }
+    .hr-line {
+        margin-top: 52px;
+        margin-bottom: 35px;
+    }
+    .info-online-control {
+        width: 681px;
+        margin-bottom: 91px;
+        color: #363636;
+    }
+    .form-input {
+        margin-bottom: 37px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .input-blok-label {
+        color: rgba(54, 54, 54, 0.5);
+    }
+    .input-blok-input {
+        width:231px;
+        border: 0;
+        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    }
+    .input-blok:nth-child(2) {
+        padding-left: 58px;
+        padding-right: 49px;
+    }
+    .form-input-check-mobile {
+        display: none;
+        
+    }
+
+    .form-input-check {
+        display: flex;
+        justify-content: center;
+    }
+    .form-input-check-text {
+        color: #181818;
+      }
+    .types-flat {
+        margin: 75px 0px 242px 0px;
+    }  
+    .types-repair-list-item {
+        display: grid;
+        justify-items: center;
+        padding-bottom: 108px;
+    }
+    .dop-form {
+        display: grid;
+    }
+    .mob-styles {
+        display: none;
+    }
+    .styles {
+        background-image: url('../image/backpic-styles.png');
+    }
+    .clients {
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width:  768px){
+    nav {
+        display: none;
+    }
+    .container {
+        width: 80%;   
+    }
+
+    .button-header {
+        display: none;
+    }
+
+    .header-phone {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .div-services-list {
+        display: none;
+    }
+
+    .button-lite {
+        width: 100%;
+        margin-top: 26px;
+        margin-bottom: 61px;
+    }
+
+    .button-hero {
+        width: 100%;
+        height: 51px;
+    }
+
+    .info-project {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav-link {
+        display: none;
+    }
+   
+    .title-services {
+        text-align: center;
+        margin-top: 36px;
+    }
+
+    .suptitle-services {
+        text-align: center;
+        margin-bottom: 72p;
+    }
+    
+    .mobile-pic {
+        width: 100%;
+    }
+    .web-pic {
+        display: none;
+    }
+    
+    .online-control {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        margin-top: -160px;
+        background-color: #000;
+        z-index: -1;
+    }
+
+    .img-online-control {
+        position: relative;
+        width: 100%;
+    }
+    .imgs-online-control {
+        width: 100%;
+    }
+    .img-icon {
+        top: 26%;
+        left: 40%;
+    }
+    .hr-line {
+        margin-top: 28px;
+        margin-bottom: 21px;
+    }
+    .info-online-control {
+        width: 100%;
+        margin-bottom: 61px;
+        color: #fff;
+    }
+    .form-input {
+        margin-bottom: 37px;
+        display: flex;
+        flex-direction: column;
+    }
+    .input-blok-label {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .input-blok-input {
+        width:100%;
+        border: 0;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background: #000;
+    }
+
+    .input-blok {
+        margin: 61px 0px 0px 0px;
+    }
+    .form-input-check {
+        display: none;
+    }
+    .form-input-check-mobile {
+        margin-top: 26px;
+        margin-bottom: 62px;
+        color: #FFF;
+    }
+    .form-input-check-text {
+        color: #fff;
+    }
+    .types-flat {
+        margin: -60px 0px 0px 0px;
+        padding-top: 80px;
+    }
+    .types-repair-list {
+        width: 100%;
+    }
+    .types-repair-list-item {
+        padding-bottom: 108px;
+    }
+    .dop-form {
+        display: none;
+    }
+    .web-styles{
+        display: none;
+    }
+    .clients {
+        display: none;
+    }
+}
+
+* {
     box-sizing: border-box;
 }
 
@@ -80,10 +442,7 @@ body {
 }
 
 .header-phone {
-    margin-right: 45px;
-    color: #E3B873;
     font-size: 11px;
-
 }
 
 .button {
@@ -102,15 +461,8 @@ body {
     padding: 13px 33px;
 }
 
-.button-hero {
-    width: 207px;
-    height: 51px;
-}
-
 .button-lite {
-    width: 207px;
     height: 51px;
-    margin-left: 20px;
     color: #fff;
     background-color: rgba(28,28,28,0);
     border: 1px solid #FFf;
@@ -207,11 +559,6 @@ body {
     margin: 0px 10px;
 }
 
-.info-project {
-    margin-top: 52px;
-    display: flex;
-    justify-content:space-between;
-}
 
 .info-project-flat {
     margin-top: 42px;
@@ -256,19 +603,8 @@ body {
     margin: 30px;
 }
 
-.info-project-descr {
-    margin-right: 50px;
-}
-
 .info-projectr-flat-item {
     margin-bottom: 34px;
-}
-
-.online-control {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    margin-top: -270px;
 }
 
 .title-online-control {
@@ -282,8 +618,6 @@ body {
 
 .img-online-control {
     position: relative;
-    width: 817px;
-    height: 434px;
 }
 
 .img-online-control:after {
@@ -298,8 +632,6 @@ body {
 
 .img-icon {
     position: absolute;
-    top: 35%;
-    left: 41%;
     right: 0;
     bottom: 0;
     z-index: 2;
@@ -314,8 +646,6 @@ body {
 }
 
 .hr-line {
-    margin-top: 52px;
-    margin-bottom: 35px;
     background-color: #E3B873;
     height: 3px;
     width: 55px;
@@ -323,22 +653,14 @@ body {
 
 .info-online-control {
     margin: 0 auto;
-    margin-bottom: 91px;
-    width: 681px;
     font-size: 18px;
     line-height: 37px;
     text-align: center;
-    color: #363636;
 }
 
 .input-blok {
     display: flex;
     flex-direction: column;
-}
-
-.input-blok:nth-child(2) {
-    padding-left: 58px;
-    padding-right: 49px;
 }
 
 .form-input {
@@ -350,26 +672,17 @@ body {
 .input-blok-label {
     font-size: 13px;
     line-height: 21px;
-    color: rgba(54, 54, 54, 0.5);
 }
 
 .form-input-button {
     padding: 20px 75px; 
     font-style: normal;
+    z-index: 1;
 }
 
 .input-blok-input {
-    width:231px;
-    border: 0;
-    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
     font-size: 14px;
     line-height: 23px;
-    color: #363636;
-}
-
-.form-input-check {
-    display: flex;
-    justify-content: center;
 }
 
 .form-input-check-label {
@@ -398,12 +711,10 @@ body {
   .form-input-check-text {
     font-size: 14px;
     line-height: 163.68%;
-    color: #181818;
   }
 
   .types-flat {
-    margin: 75px 0px 242px 0px;
-
+    background-color: #FFF;
   }
 
   .types-flat-svg {
@@ -450,11 +761,6 @@ body {
     color: #959595;
 }
 
-.types-repair-list-item {
-    display: grid;
-    justify-items: center;
-}
-
 .redecorating-info {
     position: relative;;
     margin-top: -130px;
@@ -483,7 +789,6 @@ body {
 
 .dop-form {
     margin-top: 124px;
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(509px, 1fr));
     column-gap:  80px;
 }
@@ -604,7 +909,6 @@ body {
 }
 
 .styles {
-    background-image: url('../image/backpic-styles.png');
     background-size: cover;
     height: 942px;
     position: relative;
@@ -629,6 +933,21 @@ body {
     line-height: 37px;
     text-transform: uppercase;
     text-align: left;
+    color: #E3B873;
+
+}
+.pic-style {
+    width: 100%;
+}
+
+.styles-title {
+    margin-bottom: 25px;
+    font-family: 'Yeseva One';
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    text-align: left;
+    text-align: center;
     color: #E3B873;
 
 }
@@ -712,7 +1031,6 @@ body {
 
 .clients {
     margin-top: 110px;
-    display: block;
     background-color: #fff
 }
 

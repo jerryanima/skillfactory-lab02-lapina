@@ -43,15 +43,18 @@
         </section>
         <section class="services">
             <div class="container">
-                <ul class="services-list">
-                    <li class="services-list-item"><a class="services-list-item-link">Rostov-on-Don, Admiral</a></li>
-                    <li class="services-list-item"><a class="services-list-item-link">Sochi Thieves</a></li>
-                    <li class="services-list-item"><a class="services-list-item-link">Rostov-on-Don Patriotic</a></li>
-                </ul>
+                <div class="div-services-list">
+                    <ul class="services-list">
+                        <li class="services-list-item"><a class="services-list-item-link">Rostov-on-Don, Admiral</a></li>
+                        <li class="services-list-item"><a class="services-list-item-link">Sochi Thieves</a></li>
+                        <li class="services-list-item"><a class="services-list-item-link">Rostov-on-Don Patriotic</a></li>
+                    </ul>
+                </div>
                 <div class="info-project">
                     <div class="info-project-descr">
                         <h2 class="title-services">Completed <br> projects</h2>
                         <p class="suptitle-services">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families</p>
+                        <img src="../image/flat.png" alt="pic example flat" class="mobile-pic">
                         <div class="info-project-flat">
                             <div class="info-project-flat-item">
                                 <h3 class="title-info-project-flat">City:</h3>
@@ -76,7 +79,7 @@
                             <a href="#"><img src="../image/right.svg" alt=""></a>
                         </div>
                     </div>
-                    <img src="../image/flat.png" alt="pic example flat">
+                    <img src="../image/flat.png" alt="pic example flat" class="web-pic">
                 </div>
             </div>
         </section>
@@ -95,7 +98,7 @@
                             </svg>                    
                 </div>
                 <div class="img-online-control">
-                    <img src="../image/online-control.png" alt="pic online control" >
+                    <img src="../image/online-control.png" alt="pic online control" class="imgs-online-control">
                     <div class="img-icon">
                         <svg width="145" height="145" viewBox="0 0 145 145" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g filter="url(#filter0_d_1_11184)">
@@ -128,6 +131,13 @@
                         <div class="input-blok">
                             <label for="" class="input-blok-label">Phone</label>
                             <input type="text" name="input" placeholder="Your phone number:" class="input-blok-input">
+                        </div>
+                        <div class="form-input-check-mobile">
+                            <label class="form-input-check-label">
+                              <input type="checkbox" class="form-input-check-checkbox" >
+                              <span class="form-input-check-fake"></span>
+                              <span class="form-input-check-text">I agree to the processing of personal data</span>
+                            </label>
                         </div>
                         <button class="button form-input-button">Submit</button>
                     </div>
@@ -280,47 +290,53 @@
             </div>
         </section>
         <section class="styles">
-            <div class="style-container container">
-            <h2 class="styles-title">We realize your <br> wildest fantasies</h2>
-            <ul class="styles-list">
-                <li class="styles-item styles-item-curent"><span>American classic</span></li>
-                <li class="styles-item">Empire</li>
-                <li class="styles-item">Classical</li>
-                <li class="styles-item">Loft</li>
-                <li class="styles-item">Minimalism</li>
-                <li class="styles-item">Provence</li>
-                <li class="styles-item">Romanticism</li>
-                <li class="styles-item">Scandinavian style</li>
-                <li class="styles-item">Mediterranean style</li>
-                <li class="styles-item">High tech</li>
-                <li class="styles-item">Eclecticism</li>
-            </ul>
-            <div class="styles__img-list-wrapper slider__list-wrapper">
-                <div class="styles__img-list slider__list">
-                    <div class="styles__img-item styles__img-item1">
-                        <picture>
-                            <img class="styles__img" src="../image/1.png" alt="Photos in style American classic">
-                        </picture>
-                    </div>
-                    <div class="styles__img-item styles__img-item2">
-                        <picture>
-                            <img class="styles__img" src="../image/3.png" alt="Photos in style American classic">
-                        </picture>
-                    </div>
-                    <div class="styles__img-item styles__img-item3">
-                        <picture>
-                            <img class="styles__img" src="../image/2.png" alt="Photos in style American classic">
-                        </picture>
-                    </div>
-                    <div class="styles__img-item styles__img-item4">
-                        <picture>
-                            <img class="styles__img" src="../image/4.png" alt="Photos in style American classic">
-                        </picture>
-                    </div>
-                </div>
+            <div class="mob-styles container">
+                <h2 class="styles-title mob-styles-title">We realize your <br> wildest fantasies</h2>
+                <img class="pic-style" src="image/style-pic.png" alt="pic style">
             </div>
+            <div class="web-styles">
+                <div class="style-container container">
+                    <h2 class="styles-title">We realize your <br> wildest fantasies</h2>
+                    <ul class="styles-list">
+                        <li class="styles-item styles-item-curent"><span>American classic</span></li>
+                        <li class="styles-item">Empire</li>
+                        <li class="styles-item">Classical</li>
+                        <li class="styles-item">Loft</li>
+                        <li class="styles-item">Minimalism</li>
+                        <li class="styles-item">Provence</li>
+                        <li class="styles-item">Romanticism</li>
+                        <li class="styles-item">Scandinavian style</li>
+                        <li class="styles-item">Mediterranean style</li>
+                        <li class="styles-item">High tech</li>
+                        <li class="styles-item">Eclecticism</li>
+                    </ul>
+                    <div class="styles__img-list-wrapper slider__list-wrapper">
+                        <div class="styles__img-list slider__list">
+                            <div class="styles__img-item styles__img-item1">
+                                <picture>
+                                    <img class="styles__img" src="../image/1.png" alt="Photos in style American classic">
+                                </picture>
+                            </div>
+                            <div class="styles__img-item styles__img-item2">
+                                <picture>
+                                    <img class="styles__img" src="../image/3.png" alt="Photos in style American classic">
+                                </picture>
+                            </div>
+                            <div class="styles__img-item styles__img-item3">
+                                <picture>
+                                    <img class="styles__img" src="../image/2.png" alt="Photos in style American classic">
+                                </picture>
+                            </div>
+                            <div class="styles__img-item styles__img-item4">
+                                <picture>
+                                    <img class="styles__img" src="../image/4.png" alt="Photos in style American classic">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="styles-overlay"></div>
             </div>
-            <div class="styles-overlay"></div>
         </section>
         <section class="clients">
             <div class="clients-container container">
