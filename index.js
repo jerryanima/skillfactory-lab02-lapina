@@ -22,7 +22,6 @@ let images = [{
   }];
 
 function initSlider(options) {
-    debugger
   if (!images || !images.length) return;
   
   options = options || {
