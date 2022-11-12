@@ -8,6 +8,7 @@
     <title>IC "Repair Design Project"</title>
 </head>
 <body>
+    <script src="/index.js"></script>
     <header class="header">
         <div class="container header-container">
             <div class="logo">
@@ -44,11 +45,7 @@
         <section class="services">
             <div class="container">
                 <div class="div-services-list">
-                    <ul class="services-list">
-                        <li class="services-list-item"><a class="services-list-item-link">Rostov-on-Don, Admiral</a></li>
-                        <li class="services-list-item"><a class="services-list-item-link">Sochi Thieves</a></li>
-                        <li class="services-list-item"><a class="services-list-item-link">Rostov-on-Don Patriotic</a></li>
-                    </ul>
+                    <ul class="services-list"></ul>
                 </div>
                 <div class="info-project">
                     <div class="info-project-descr">
@@ -58,28 +55,30 @@
                         <div class="info-project-flat">
                             <div class="info-project-flat-item">
                                 <h3 class="title-info-project-flat">City:</h3>
-                                <span class="suptitle-info-project-flat">Rostov-on-Don LCD admiral</span>
+                                <span class="suptitle-info-project-flat citytext">Rostov-on-Don LCD admiral</span>
                             </div>
                             <div class="info-projectr-flat-item">
                                 <h3 class="title-info-project-flat">Apartment area:</h3>
-                                <span class="suptitle-info-project-flat">81 m2</span>
+                                <span class="suptitle-info-project-flat area">81 m2</span>
                             </div>
                             <div class="info-projectr-flat-item">
                                 <h3 class="title-info-project-flat">Repair time:</h3>
-                                <span class="suptitle-info-project-flat">3.5 months</span>
+                                <span class="suptitle-info-project-flat time">3.5 months</span>
                             </div>
                             <div class="info-projectr-flat-item">
                                 <h3 class="title-info-project-flat">Repair Cost:</h3>
-                                <span class="suptitle-info-project-flat">Upon request</span>
+                                <span class="suptitle-info-project-flat cost">Upon request</span>
                             </div>
                         </div>
-                        <div class="nav-link">
-                            <a href="#"><img src="image/left.svg" alt=""></a>
-                            <a href="#" class="link-dots"><img src="image/dots.png" alt=""></a>
-                            <a href="#"><img src="image/right.svg" alt=""></a>
-                        </div>
+                        <section class="slider">
+                            <div class="slider__arrows">
+                              <div class="slider__arrow left"><img src="image/left.svg" alt=""></div>
+                              <div class="slider__dots"></div>
+                              <div class="slider__arrow right"><img src="image/right.svg" alt=""></div>
+                            </div>
+                          </section>
                     </div>
-                    <img src="image/flat.png" alt="pic example flat" class="web-pic">
+                    <div class="slider__images"></div>
                 </div>
             </div>
         </section>
